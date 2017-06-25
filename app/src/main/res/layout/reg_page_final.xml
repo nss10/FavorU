@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:id="@+id/user_reg_final" />
+
+    <EditText
+        android:id="@+id/pass_reg_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_reg_final"
+        android:layout_alignLeft="@+id/user_reg_final"
+        android:layout_alignStart="@+id/user_reg_final" />
+
+    <EditText
+        android:id="@+id/retype_pass_reg_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pass_reg_final"
+        android:layout_alignStart="@+id/pass_reg_final"
+        android:layout_below="@+id/pass_reg_final"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Re-type password"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/back_reg_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/retype_pass_reg_final"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/retype_pass_reg_final"
+        android:layout_marginBottom="73dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/register_reg_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/retype_pass_reg_final"
+        android:layout_alignRight="@+id/retype_pass_reg_final"
+        android:layout_alignTop="@+id/back_reg_final"
+        android:text="Register" />
+</RelativeLayout>
