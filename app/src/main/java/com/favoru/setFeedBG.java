@@ -49,7 +49,7 @@ public class setFeedBG extends AsyncTask<String,Void,String>{
 
 
         result="";
-        String login_url = mPort + "/viewFeed.php";
+        String login_url = mPort + "/enterFeed.php";
         try
         {
             HttpURLConnection httpURLConnection = (HttpURLConnection) new URL(login_url).openConnection();

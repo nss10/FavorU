@@ -83,7 +83,6 @@ public class A_Home extends AppCompatActivity {
                 Log.d("Rajni","Clicked eDate");
                 eDate.setVisibility(View.INVISIBLE);
                 eTime.setVisibility(View.INVISIBLE);
-                eDate.setVisibility(View.INVISIBLE);
                 publish.setVisibility(View.INVISIBLE);
                 datePicker.setVisibility(View.VISIBLE);
                 set_date.setVisibility(View.VISIBLE);
@@ -98,7 +97,7 @@ public class A_Home extends AppCompatActivity {
                 mE_date= datePicker.getDayOfMonth()+"-"+datePicker.getMonth()+"-"+ datePicker.getYear();
                 eDate.setVisibility(View.VISIBLE);
                 eTime.setVisibility(View.VISIBLE);
-                eDate.setVisibility(View.VISIBLE);
+
                 publish.setVisibility(View.VISIBLE);
                 eDate.setText(mE_date);
                 datePicker.setVisibility(View.INVISIBLE);
@@ -113,7 +112,6 @@ public class A_Home extends AppCompatActivity {
                 Log.d("Rajni","Clicked eTime");
                 eDate.setVisibility(View.INVISIBLE);
                 eTime.setVisibility(View.INVISIBLE);
-                eDate.setVisibility(View.INVISIBLE);
                 publish.setVisibility(View.INVISIBLE);
                 timePicker.setVisibility(View.VISIBLE);
                 set_time.setVisibility(View.VISIBLE);
@@ -128,7 +126,6 @@ public class A_Home extends AppCompatActivity {
                 mE_time= timePicker.getHour()+":"+timePicker.getMinute();
                 eDate.setVisibility(View.VISIBLE);
                 eTime.setVisibility(View.VISIBLE);
-                eDate.setVisibility(View.VISIBLE);
                 publish.setVisibility(View.VISIBLE);
                 eTime.setText(mE_time);
                 timePicker.setVisibility(View.INVISIBLE);
